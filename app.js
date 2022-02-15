@@ -21,8 +21,7 @@ form.addEventListener('submit', async function(e) {
     nextGif.classList.add('gifs')
     document.body.appendChild(nextGif)
     search.value = ''
-    // I'm not actually sure what the purpose of the above line is
-    // but I keep seeing it when writing programs that are apending something
+   
 });
 
 const removeBtn = document.querySelector('#remove')
